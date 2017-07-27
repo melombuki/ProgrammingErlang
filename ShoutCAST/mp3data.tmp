@@ -1,0 +1,4 @@
+[{"/Users/melombuki/Music/erlTest/test.mp3",
+  {ok,[{album,<<"Till It's All Forgotten">>},
+       {performer,<<"Farao">>},
+       {title,<<"TIAF">>}]}}].

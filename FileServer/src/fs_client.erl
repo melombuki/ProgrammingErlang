@@ -3,7 +3,7 @@
 -export([ls/1, get_file/2, put_file/3, delete_file/2]).
 
 ls(Server) ->
-  Server ! {self(), list_dir} ,
+  Server ! {self(), list_dir},
   receive
     {Server, FileList} ->
       FileList

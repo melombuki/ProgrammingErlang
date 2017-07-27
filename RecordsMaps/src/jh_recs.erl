@@ -19,8 +19,8 @@ map_search_pred(Pred, Map) ->
 
 list_search_pred(Pred, [{K,V}|T]) ->
     case catch Pred(V) of
-	false -> list_search_pred(Pred, T);
-	true  -> {ok, {K, V}}
+	true  -> {ok, {K, V}};
+	_ -> list_search_pred(Pred, T)
     end;
 list_search_pred(_Pred, []) ->
     {error, not_found}.
