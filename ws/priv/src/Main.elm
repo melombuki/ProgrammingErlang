@@ -60,7 +60,7 @@ view : Model -> Html Msg
 view model =
   div []
     [ div [] (List.map viewMessage model.messages)
-    , input [value model.input, onInput Input] []
+    , input [onInput Input] []
     , button [onClick Send] [text "Send"]
     ]
 

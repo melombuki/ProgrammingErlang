@@ -9289,12 +9289,8 @@ var _user$project$Main$view = function (model) {
 					_elm_lang$html$Html$input,
 					{
 						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$value(model.input),
-						_1: {
-							ctor: '::',
-							_0: _elm_lang$html$Html_Events$onInput(_user$project$Main$Input),
-							_1: {ctor: '[]'}
-						}
+						_0: _elm_lang$html$Html_Events$onInput(_user$project$Main$Input),
+						_1: {ctor: '[]'}
 					},
 					{ctor: '[]'}),
 				_1: {
