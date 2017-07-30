@@ -95,6 +95,13 @@
         <div id="output"></div>
       </div>
 
+      <div id="main"></div>
+      <script src="static/main.js"></script>
+      <script>
+          var node = document.getElementById('main');
+          var app = Elm.Main.embed(node);
+      </script>
+
     </div>
   </body>
 </html> 
