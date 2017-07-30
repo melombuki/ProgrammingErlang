@@ -1,15 +1,15 @@
-{application, websockets,
- [{description, "An OTP application"},
+{application, ws,
+ [{description, "Cowboy hello world app"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { websockets_app, []}},
+  {mod, {ws_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    cowboy
    ]},
   {env,[]},
   {modules, []},
-
   {maintainers, []},
   {licenses, ["Apache 2.0"]},
   {links, []}

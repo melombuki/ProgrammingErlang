@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc websockets top level supervisor.
+%% @doc tg top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(websockets_sup).
+-module(tg_sup).
 
 -behaviour(supervisor).
 
